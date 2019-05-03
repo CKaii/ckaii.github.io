@@ -41,7 +41,9 @@ h3, a, .header {
   line-height: 2;
 }
 
-
+.project-header {
+  display: inline
+}
 
 .computer-img {
   width: 35%;
