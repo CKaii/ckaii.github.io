@@ -1,6 +1,8 @@
+/* General Styles */
 body {
   margin: 0;
   text-align: center;
+  background-color: #00334e;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -15,7 +17,30 @@ h2 {
 }
 
 h3, a, .header {
-  color: #c8e6f5
+  color: #c8e6f5;
+}
+
+p {
+  color: #e8e8e8;
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.75;
+  margin: 30px;
+}
+
+/* Navbar */
+nav ul li {
+  display: inline;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+a:hover {
+  opacity: 1;
 }
 
 
@@ -60,11 +85,10 @@ h3, a, .header {
 }
 
 .middle-container {
-  background-color: #048998;
 }
 
 .bottom-container {
-  background-color: #048998;
+  margin-bottom: 20px;
 }
 
 .top-cloud {
