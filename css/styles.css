@@ -55,6 +55,20 @@ a:hover {
   color: #11999E;
 }
 
+/* About Styles */
+.paragraph {
+  text-align: left;
+  padding: 0px 50px;
+  font-size: 18px;
+}
+
+#about ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+  color: #e8e8e8;
+}
 
 .skill-row {
   width: 60%;
@@ -83,7 +97,7 @@ a:hover {
 .middle-container {
 }
 
-/* Card Styles */
+/* Project Styles */
 .project-header {
   display: inline
 }
@@ -106,6 +120,15 @@ a:hover {
   justify-content:flex-start;
   border:5px solid #333;
 }
+
+.card-icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: #c8e6f5;
+}
+
+/* Footer styles */
 
 .bottom-container {
   margin-bottom: 20px;
