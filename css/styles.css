@@ -27,7 +27,7 @@ p {
 a {
   text-decoration: none;
   opacity: 0.75;
-  margin: 30px;
+  /* margin: 30px; */
 }
 
 /* Navbar */
@@ -55,14 +55,14 @@ a:hover {
   color: #11999E;
 }
 
-/* About Styles */
+/* About Section Styles */
 .paragraph {
   text-align: left;
   padding: 0px 50px;
   font-size: 18px;
 }
 
-#about ul {
+.tech {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -99,12 +99,14 @@ a:hover {
 
 /* Project Styles */
 .project-header {
-  display: inline
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
 }
 
 .container {
   min-height:700px;
-  /* position:relative; */
   display:flex;
   justify-content:space-around;
   align-items:center;
@@ -119,6 +121,8 @@ a:hover {
   flex-direction:column;
   justify-content:flex-start;
   border:5px solid #333;
+  padding: 10px 15px;;
+  margin: 5px;
 }
 
 .card-icon {
